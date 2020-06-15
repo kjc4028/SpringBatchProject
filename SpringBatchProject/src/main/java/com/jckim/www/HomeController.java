@@ -53,7 +53,7 @@ public class HomeController {
 		
 		return "home";
 	}
-	
+	 
 	@RequestMapping(value = "/bat", method = RequestMethod.GET)
 	@ResponseBody
 	public BatchStatus batchTest() {

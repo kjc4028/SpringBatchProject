@@ -45,7 +45,13 @@
             <artifactId>spring-batch-core</artifactId>
             <version>3.0.7.RELEASE</version>
         </dependency>
-        		
+       
+		<dependency>
+		    <groupId>org.quartz-scheduler</groupId>
+		    <artifactId>quartz</artifactId>
+		    <version>1.8.6</version>
+		</dependency>
+		        		
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
